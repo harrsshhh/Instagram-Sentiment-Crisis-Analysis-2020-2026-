@@ -1,10 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Data (Too large for GitHub)
+data/*.csv
+data/*.parquet
+output/*.csv
+output/*.parquet
+
+# Models (Exclude if >100MB)
+models/*.pkl
+
+# OS / IDE settings
 .DS_Store
-applet
-application.linux-arm64
-application.linux-armv6hf
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
-out
+.vscode/
+.idea/
